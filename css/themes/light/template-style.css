@@ -1,0 +1,92 @@
+/* Main body */
+body {
+  background-color: rgba(204, 204, 204, 0.59);
+}
+/* Main body */
+/* Header */
+.tdbitcoin {
+  color: #FF9900;
+}
+/* Header */
+/* Form */
+.message-box {
+  margin: 120px 50px;
+}
+.form-control {
+  border: 1px solid #4c5a67;
+  background-color: #434f5c;
+  box-shadow: none;
+  color: #98a6ad;
+}
+.form-control:focus {
+  background: #4c5a67;
+  border-color: #526170;
+  box-shadow: none;
+  color: #98a6ad;
+}
+form.text-center div.input-group span.input-group-btn button.btn-primary {
+  background-color: #3bafda;
+  border: 1px solid #3bafda;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.input-group-btn button.btn-primary.btn-email {
+  border-radius: 4px;
+  background-color: #3bafda;
+  border: 1px solid #3bafda;
+}
+a.btn-primary {
+  background-color: #3bafda;
+  border-radius: 4px;
+  border: 1px solid #3bafda;
+}
+.btn-primary:hover,
+.input-group-btn button.btn-primary.btn-email:hover,
+a.btn-primary:hover {
+  background-color: #28a5d4;
+  color: #ffffff !important;
+}
+.input-group-btn .btn {
+  padding: 7px 14px;
+}
+/* Form */
+/* Side image */
+.ex-page-content .svg-box {
+  float: right;
+}
+/*  Side image */
+/* Text style*/
+.text-dark {
+  color: #ffffff !important;
+}
+.text-muted {
+  color: #434F5C !important;
+}
+/* Text style*/
+/* Polygon animation styles */
+#Polygon-1,
+#Polygon-2,
+#Polygon-3,
+#Polygon-4,
+#Polygon-4,
+#Polygon-5 {
+  animation: float 1s infinite ease-in-out alternate;
+}
+#Polygon-2 {
+  animation-delay: .2s;
+}
+#Polygon-3 {
+  animation-delay: .4s;
+}
+#Polygon-4 {
+  animation-delay: .6s;
+}
+#Polygon-5 {
+  animation-delay: .8s;
+}
+@keyframes float {
+  100% {
+    transform: translateY(20px);
+  }
+}
+/* Polygon animation styles */

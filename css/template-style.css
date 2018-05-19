@@ -1,0 +1,89 @@
+/* Main body */
+
+body {
+    background-color: rgb(50, 59, 68) !important;
+}
+
+/* Main body */
+
+/* Header */
+
+.tdbitcoin {
+    color:#FF9900;
+}
+
+/* Header */
+
+/* Form */
+
+.message-box {
+    margin: 120px 50px;
+}
+
+.form-control {
+    border: 1px solid #4c5a67;
+    background-color: #434f5c;
+    box-shadow: none;
+    color: #98a6ad; 
+}
+
+.form-control:focus {
+    background: #4c5a67;
+    border-color: #526170;
+    box-shadow: none;
+    color: #98a6ad; 
+}
+
+form.text-center div.input-group span.input-group-btn button.btn-primary {
+    background-color: #3bafda;
+    border: 1px solid rgb(59, 175, 218);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.input-group-btn button.btn-primary.btn-email {
+    border-radius: 4px;
+    background-color: #3bafda;
+    border: 1px solid rgb(59, 175, 218);  
+}
+
+a.btn-primary {
+    background-color: #3bafda;
+    border-radius: 4px;
+    border: 1px solid rgb(59, 175, 218);
+}
+
+.btn-primary:hover,
+.input-group-btn button.btn-primary.btn-email:hover,
+a.btn-primary:hover {
+    background-color: #28a5d4;
+    color: #ffffff !important;
+}
+
+.input-group-btn .btn {
+    padding: 7px 14px; 
+}
+
+/* Form */
+
+/* Side image */
+
+.ex-page-content .svg-box {
+    float: right; 
+}
+
+/*  Side image */
+
+/* Text style*/
+
+.text-dark {
+    color: #ffffff !important; 
+}
+
+.text-muted {
+    color: #98a6ad !important; 
+}
+
+/* Text style*/
+
+  

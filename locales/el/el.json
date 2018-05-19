@@ -1,0 +1,777 @@
+{
+  "logo": {
+    "profit": "Profit",
+    "trailer": "Trailer"
+  },
+  "dtMsgs": {
+    "noRecords": "No records found.",
+    "totalRecords": "Total records",
+    "excel": "Excel",
+    "search": "Search",
+    "showEntries": "Show _MENU_ entries",
+    "all": "all",
+    "previous": "Previous",
+    "next": "Next",
+    "filtered": "(filtered from _MAX_ total records)"
+  },
+  "sidebar": {
+    "monitoring": "Monitor",
+    "buyLog": "Possible Buy",
+    "pairsLog": "Pairs",
+    "dcaLog": "DCA",
+    "pendingLog": "Pending",
+    "salesLog": "Sales",
+    "dustLog": "Dust",
+    "config": "Config"
+  },
+  "pageHeadings": {
+    "configuration": "Configuration",
+    "totalLog": "Total Log"
+  },
+  "configOptions": {
+    "pairs": "Pairs",
+    "dca": "DCA",
+    "indicators": "Indicators",
+    "hotConfig": "HotConfig"
+  },
+  "summaryItems": {
+    "balance": {
+      "title": "Balance",
+      "label": "BAL"
+    },
+    "testMode": {
+      "label": "TESTMODE"
+    },
+    "price": {
+      "title": "Price",
+      "label": "Price"
+    },
+    "tcv": {
+      "title": "Total Current Value",
+      "label": "TCV"
+    },
+    "sb": {
+      "title": "Start Balance",
+      "label": "SB"
+    },
+    "profit": {
+      "title": "Profit",
+      "label": "P",
+      "fullText": "Profit"
+    },
+    "lw": {
+      "title": "Profit Last Week",
+      "label": "LW"
+    },
+    "yd": {
+      "title": "Profit Yesterday",
+      "label": "YD"
+    },
+    "td": {
+      "title": "Profit Today",
+      "label": "TD"
+    },
+    "trend": {
+      "title": "Trend",
+      "label": "T",
+      "suffix": " last 24 Hours!"
+    },
+    "imageTitles": {
+      "fullScreen": "Fullscreen"
+    },
+    "updated": "Updated {{- timeAgo}}"
+  },
+  "settingInfo": {
+    "chngePswrd": {
+      "label": "Change Passwords",
+      "title": "Role should be \"{{ role }}\" to change passwords."
+    },
+    "noPswrdAndConfig": {
+      "title": "Please enable password/config in your application file to enable this function."
+    },
+    "noEnableShutdown": {
+      "title": "Please enable password/shutdown in your application file to enable this function."
+    },
+    "noPswrd": {
+      "title": "Please enable password in your application file to enable this function."
+    },
+    "market": {
+      "label": "Market: ",
+      "title": "Your Exchange and Coin"
+    },
+    "currency": {
+      "title": "Currency"
+    },
+    "config": {
+      "label": "Config: ",
+      "title": "Can be changed in Application file"
+    },
+    "password": {
+      "label": "Password: ",
+      "title": "Can be changed in Application file"
+    },
+    "som": {
+      "label": "SOM: "
+    },
+    "somOnOff": {
+      "label": "SOM",
+      "subLabel": "SOM False/True",
+      "title": "Sell Only Mode"
+    },
+    "somo": {
+      "label": "SOMO: ",
+      "title": "Sell Only Mode Override"
+    },
+    "heartbeats": {
+      "label": "Heartbeats"
+    },
+    "settings": {
+      "label": "Settings"
+    },
+    "somoOnOff": {
+      "label": "SOMO",
+      "subLabel": "SOMO False/True"
+    },
+    "time": {
+      "label": "Time: ",
+      "title": "Current Timezone time"
+    },
+    "utc": {
+      "title": "Exchange Server Time / UTC",
+      "labelFullText": "UTC Time:",
+      "labelShortText": "UTC:"
+    },
+    "logout": {
+      "label": "Logout"
+    }
+  },
+  "monitoringSection": {
+    "topFiveMarkets": {
+      "btc": "BTC ",
+      "eth": "ETH ",
+      "xrp": "XRP ",
+      "bch": "BCH ",
+      "ltc": "LTC "
+    },
+    "pairsBal": {
+      "label": "Pairs Balance"
+    },
+    "dcaBal": {
+      "label": "DCA Balance"
+    },
+    "coinTopMarket": {
+      "title": "Coinmarketcap Top 5 Coins"
+    },
+    "globalMarket": {
+      "totalMarketCap": "Total Market Cap",
+      "total24HrsVol": "Total 24 Hour Volume",
+      "bitcoinMarketCap": "Bitcoin % of Market Cap",
+      "title": "Coinmarketcap - Total"
+    },
+    "usdFullText": " Estimated Value",
+    "usdShortText": " Est. Value",
+    "gainFullText": "Estimated Gain",
+    "gainShortText": "Est. Gain",
+    "heading": "Monitoring",
+    "tcvDust": {
+      "label": "TCV with Dust",
+      "title": "Total Current Value with your Dust"
+    },
+    "notification": "Notification",
+    "trendContainerFirstPart": "The % trend of 50 top ",
+    "trendContainerSecondPart": "coins from your market the last 24 hours",
+    "trend24H": "Trend 24H",
+    "balance": {
+      "title": "Your current Balance not locked in bags",
+      "mainText": "Balance",
+      "usdFullText": "Estimated USD Value",
+      "usdShortText": "Est. USD Value"
+    },
+    "tcv": {
+      "title": "The current value of your bags",
+      "mainText": "Total Current Value",
+      "usdFullText": "Estimated USD Value",
+      "usdShortText": "Est. USD Value"
+    },
+    "sb": {
+      "title": "Your Start Balance. Can be set in your PAIRS.properties.",
+      "mainText": "Start Balance",
+      "usdFullText": "Estimated USD Value",
+      "usdShortText": "Est. USD Value"
+    },
+    "btcUsd": {
+      "title": "Last BTCUSDT price from your Market",
+      "mainText": "BTC USDT Price"
+    },
+    "trendUsd1H": {
+      "mainText": "Trend USD last 1H "
+    },
+    "trendUsd24H": {
+      "mainText": "Trend USD last 24H "
+    },
+    "trendUsd7D": {
+      "mainText": "Trend USD last 7D "
+    },
+    "trendUsdTill7D": {
+      "title": "Average % Trend last hour, last 24 hours and last 7 days of top 20 altcoins USD Market (CoinMarketCap)"
+    },
+    "profitLW": {
+      "title": "Your profit from 7 Days",
+      "mainText": "Profit Last 7 Days",
+      "usdFullText": "Estimated USD Value",
+      "usdShortText": "Est. USD Value"
+    },
+    "profitYday": {
+      "title": "Your profit from yesterday",
+      "mainText": "Profit Yesterday",
+      "usdFullText": "Estimated USD Value",
+      "usdShortText": "Est. USD Value"
+    },
+    "profitToday": {
+      "title": "Your profit from today",
+      "mainText": "Profit Today",
+      "usdFullText": "Estimated USD Value",
+      "usdShortText": "Est. USD Value"
+    },
+    "pot": {
+      "title": "Pending Order Time",
+      "label": "POT:",
+      "pwTitle": "Can be changed in Application file",
+      "pwText": "PW:",
+      "conText": "CON:",
+      "somText": "SOM:",
+      "somoTitle": "Sell Only Mode Override",
+      "somoText": "SOMO:",
+      "ptvTitle": "ProfitTrailer Version",
+      "pLetter": "P",
+      "tLetter": "T",
+      "marketTitle": "Your Exchange and Trading Coin",
+      "marketLabel": "Market:",
+      "ver": "Ver:"
+    },
+    "pairsLog": {
+      "title": "The current value of your pair coins",
+      "fullText": "Current Value",
+      "shortText": "CV",
+      "diffTitle": "The difference between Current Value and Bought Cost",
+      "diffFullText": "Difference",
+      "boughtCostTitle": "The bought cost of your pair coins",
+      "bcFullText": "Bought Cost",
+      "bcShortText": "BC",
+      "label": "PAIRS LOG"
+    },
+    "dcaLog": {
+      "title": "The current value of your DCA coins",
+      "fullText": "Current Value",
+      "shortText": "CV",
+      "diffTitle": "The difference between Current Value and Total Cost",
+      "diffFullText": "Difference",
+      "totalCostTitle": "The total cost of your DCA coins",
+      "tcFullText": "Total Cost",
+      "tcShortText": "TC",
+      "label": "DCA LOG"
+    },
+    "pendingLog": {
+      "title": "The current value of your pending coins",
+      "fullText": "Current Value",
+      "shortText": "CV",
+      "diffTitle": "The difference between Current Value and Target Value",
+      "diffFullText": "Difference",
+      "targetValueTitle": "The target value of your pending coins",
+      "tvFullText": "Target Value",
+      "tvShortText": "TV",
+      "label": "PENDING LOG"
+    },
+    "salesLog": {
+      "title": "The bought cost of your sold coins",
+      "fullText": "Bought Cost",
+      "shortText": "BC",
+      "diffTitle": "The difference between Bought Cost and Sold Value",
+      "diffFullText": "Difference",
+      "soldValueTitle": "The sold value of your sold coins",
+      "svFullText": "Sold Value",
+      "svShortText": "SV",
+      "label": "SALES LOG"
+    }
+  },
+  "psbSection": {
+    "coin": {
+      "colName": "Coin",
+      "colTitle": "Coin Pair"
+    },
+    "24H": {
+      "colName": "%",
+      "colTitle": "24 Hour % Change"
+    },
+    "buyStrat": {
+      "colName": "Buy",
+      "colTitle": "Buy Strategy"
+    },
+    "currPrice": {
+      "colName": "Ask Price",
+      "colTitle": "Ask Price"
+    },
+    "vol": {
+      "colName": "VOL",
+      "colTitle": "Volume"
+    },
+    "currBB": {
+      "colName": "Current BB",
+      "colTitle": "Current Bollinger Band"
+    },
+    "currVal": {
+      "colName": "BSV",
+      "colTitle": "Buy Strategy Value"
+    },
+    "buyVal": {
+      "colName": "BST",
+      "colTitle": "Buy Strategy Trigger"
+    },
+    "buyLimit": {
+      "colName": "BSL",
+      "colTitle": "Buy Strategy Limit"
+    }
+  },
+  "dataTableSection": {
+    "buyTrigger": {
+      "colName": "BTG%",
+      "colTitle": "Buy Strategy Trigger"
+    },
+    "sellTrigger": {
+      "colName": "STG%",
+      "colTitle": "Sell Strategy Trigger"
+    },
+    "currValCurrency": {
+      "colTitle": "Current Value {{currency}}"
+    },
+    "stratVal": {
+      "colName": "SSV",
+      "colTitle": "Sell Strategy Value"
+    },
+    "stratTrigger": {
+      "colName": "SST",
+      "colTitle": "Sell Strategy Trigger"
+    },
+    "currVal": {
+      "colName": "Current Value"
+    },
+    "boughtCostCurrency": {
+      "colTitle": "Bought Cost {{currency}}"
+    },
+    "date": {
+      "colName": "Date"
+    },
+    "time": {
+      "colName": "Time"
+    },
+    "timeSince": {
+      "colName": "Time Since"
+    },
+    "trigger": {
+      "colName": "Trigger"
+    },
+    "currPrice": {
+      "colName": "Bid Price"
+    },
+    "avgPrice": {
+      "colName": "Average Price"
+    },
+    "targetValue": {
+      "colName": "Target Value"
+    },
+    "targetPrice": {
+      "colName": "Target Price"
+    },
+    "AM": {
+      "label": " AM"
+    },
+    "PM": {
+      "label": " PM"
+    }
+  },
+  "pairsLogSection": {
+    "date": {
+      "colName": "Date",
+      "colTitle": "Date (Time Since)"
+    },
+    "coin": {
+      "colName": "Coin",
+      "colTitle": "Coin Pair"
+    },
+    "24H": {
+      "colName": "%",
+      "colTitle": "24 Hour % Change"
+    },
+    "sellStrat": {
+      "colName": "Sell",
+      "colTitle": "Sell Strategy"
+    },
+    "currPrice": {
+      "colName": "Bid Price",
+      "colTitle": "Bid Price"
+    },
+    "currPriceBoughtPrice": {
+      "colName": "Bid Price <br> Bought Price",
+      "colTitle": "Bid Price <br> Bought Price"
+    },
+    "boughtrPrice": {
+      "colName": "Bought Price",
+      "colTitle": "Bought Price"
+    },
+    "profit": {
+      "colName": "P%",
+      "colTitle": "Profit and Order Book Profit in %"
+    },
+    "trigger": {
+      "colName": "TG%",
+      "colTitle": "Trigger"
+    },
+    "vol": {
+      "colName": "VOL",
+      "colTitle": "Volume"
+    },
+    "totalAmount": {
+      "colName": "TAM",
+      "colTitle": "Total Amount"
+    },
+    "currVal": {
+      "colName": "Current Value",
+      "colTitle": "Current Value"
+    },
+    "currValBoughtCost": {
+      "colName": "Current Value <br> Bought Cost",
+      "colTitle": "Current Value <br> Bought Cost"
+    },
+    "boughtCost": {
+      "colName": "Bought Cost",
+      "colTitle": "Bought Cost"
+    },
+    "boughtCostCurrency": {
+      "colTitle": "Currency Value <br> Bought Cost"
+    },
+    "summaryTable": {
+      "cv": "CV",
+      "currVal": "Current Value",
+      "d": "D",
+      "diff": "Difference",
+      "bc": "BC",
+      "boughtCost": "Bought Cost"
+    }
+  },
+  "dcaLogSection": {
+    "currentTotalCstValCurrency": {
+      "colTitle": "Current Value {{currency}}<br>Total Cost {{currency}}"
+    },
+    "sellStratVal": {
+      "colName": "SSV",
+      "colTitle": "Sell Strategy Value"
+    },
+    "buyStratVal": {
+      "colName": "BSV",
+      "colTitle": "Buy Strategy Value"
+    },
+    "BB": {
+      "colName": "BB"
+    },
+    "date": {
+      "colName": "Date",
+      "colTitle": "Date (Time Since)"
+    },
+    "coin": {
+      "colName": "Coin",
+      "colTitle": "Coin Pair"
+    },
+    "24H": {
+      "colName": "%",
+      "colTitle": "24 Hour % Change"
+    },
+    "buyStrat": {
+      "colName": "Buy",
+      "colTitle": "Buy Strategy"
+    },
+    "bt": {
+      "colName": "BT%",
+      "colTitle": "Buy Trigger"
+    },
+    "buyEntryTrigger": {
+      "colName": "BSTV",
+      "colTitle": "Buy Strategy Trigger Value"
+    },
+    "buyEntryVal": {
+      "colName": "BST",
+      "colTitle": "Buy Strategy Trigger"
+    },
+    "sellEntryVal": {
+      "colName": "SST",
+      "colTitle": "Sell Strategy Trigger"
+    },
+    "sellStrat": {
+      "colName": "Sell",
+      "colTitle": "Sell Strategy"
+    },
+    "currPrice": {
+      "colName": "Bid.Pr<br>Avg.Pr",
+      "colTitle": "Bid Price<br>Average Price"
+    },
+    "profit": {
+      "colName": "P%",
+      "colTitle": "Profit and Order Book Profit in %"
+    },
+    "vol": {
+      "colName": "VOL",
+      "colTitle": "Volume"
+    },
+    "totalAmount": {
+      "colName": "TAM",
+      "colTitle": "Total Amount"
+    },
+    "currVal": {
+      "colName": "Cur.Val<br>Tot.Cost",
+      "colTitle": "Current Value<br>Total Cost"
+    },
+    "totalCost": {
+      "colName": "Total Cost",
+      "colTitle": "Total Cost"
+    },
+    "summaryTable": {
+      "cv": "CV",
+      "currVal": "Current Value",
+      "d": "D",
+      "diff": "Difference",
+      "tc": "TC",
+      "totalCost": "Total Cost"
+    }
+  },
+  "pendingLogSection": {
+    "targetCurrentValCurrency": {
+      "colTitle": " Current Value {{currency}}<br>Target Value {{currency}}"
+    },
+    "coin": {
+      "colName": "Coin",
+      "colTitle": "Coin Pair"
+    },
+    "24H": {
+      "colName": "%",
+      "colTitle": "24 Hour % Change"
+    },
+    "sellStrat": {
+      "colName": "Sell",
+      "colTitle": "Sell Strategy"
+    },
+    "currPrice": {
+      "colName": "Bid Price",
+      "colTitle": "Bid Price"
+    },
+    "currPriceTargetPrice": {
+      "colName": "Bid Price<br>Target Price",
+      "colTitle": "Bid Price<br>Target Price"
+    },
+    "profit": {
+      "colName": "P%",
+      "colTitle": "Profit in %"
+    },
+    "comboProfit": {
+      "colName": "CP%",
+      "colTitle": "Combined Profit in %"
+    },
+    "trigger": {
+      "colName": "TG%",
+      "colTitle": "Trigger Value in %"
+    },
+    "totalAmount": {
+      "colName": "TAM",
+      "colTitle": "Total Amount"
+    },
+    "currVal": {
+      "colName": "Cur.Val<br>Tar.Val",
+      "colTitle": "Current Value<br>Target Value"
+    },
+    "targetVal": {
+      "colName": "Target Value",
+      "colTitle": "Target Value"
+    },
+    "summaryTable": {
+      "cv": "CV",
+      "currVal": "Current Value",
+      "d": "D",
+      "diff": "Difference",
+      "tv": "TV",
+      "targetVal": "Target Value"
+    }
+  },
+  "salesLogSection": {
+    "boughtSoldPrice": {
+      "colName": "Bought Price<br>Sold Price"
+    },
+    "boughtSoldValue": {
+      "colName": "Bought Cost<br>Sold Value"
+    },
+    "boughtSoldValueCurrency": {
+      "colTitle": "Bought Cost {{currency}}<br>Sold Value {{currency}}"
+    },
+    "soldValueCurrency": {
+      "colTitle": "Sold Value {{currency}}"
+    },
+    "coin": {
+      "colName": "Coin",
+      "colTitle": "Coin Pair"
+    },
+    "sellStrat": {
+      "colName": "Sell",
+      "colTitle": "Sell Strategy"
+    },
+    "date": {
+      "colName": "Date",
+      "colTitle": "Date (Time Since)"
+    },
+    "boughtPrice": {
+      "colName": "Bought Price",
+      "colTitle": "Bought Price"
+    },
+    "soldPrice": {
+      "colName": "Sold Price",
+      "colTitle": "Sold Price"
+    },
+    "profit": {
+      "colName": "P%",
+      "colTitle": "Profit in %"
+    },
+    "trigger": {
+      "colName": "TG%",
+      "colTitle": "Trigger"
+    },
+    "profitUSD": {
+      "colName": "Profit <span class='api-market'></span>",
+      "colTitle": "Profit in your Market and USD "
+    },
+    "soldAmount": {
+      "colName": "SAM",
+      "colTitle": "Sold Amount"
+    },
+    "boughtCost": {
+      "colName": "Bought Cost",
+      "colTitle": "Bought Cost"
+    },
+    "boughtCostCurrency": {
+      "colTitle": "Bought Cost {{currency}}"
+    },
+    "soldValue": {
+      "colName": "Sold Value",
+      "colTitle": "Sold Value"
+    },
+    "profitSolo": {
+      "colName": "Profit {{- market}}",
+      "colTitle": "Profit {{market}}"
+    },
+    "profitCurrency": {
+      "colTitle": "Profit {{currency}}"
+    },
+    "summaryTable": {
+      "sv": "SV",
+      "soldVal": "Sold Value",
+      "d": "D",
+      "diff": "Difference",
+      "bc": "BC",
+      "boughtCost": "Bought Cost"
+    }
+  },
+  "dustLogSection": {
+    "date": {
+      "colName": "Date",
+      "colTitle": "Date (Time Since)"
+    },
+    "coin": {
+      "colName": "Coin",
+      "colTitle": "Coin Pair"
+    },
+    "24H": {
+      "colName": "%",
+      "colTitle": "24 Hour % Change"
+    },
+    "currPriceBoughtPrice": {
+      "colName": "Bid Price <br> Bought Price",
+      "colTitle": "Bid Price <br> Bought Price"
+    },
+    "currPrice": {
+      "colName": "Bid Price",
+      "colTitle": "Bid Price"
+    },
+    "boughtPrice": {
+      "colName": "Bought Price",
+      "colTitle": "Bought Price"
+    },
+    "profit": {
+      "colName": "P%",
+      "colTitle": "Profit in %"
+    },
+    "trigger": {
+      "colName": "TG%",
+      "colTitle": "Trigger Value in %"
+    },
+    "vol": {
+      "colName": "VOL",
+      "colTitle": "Volume"
+    },
+    "totalAmount": {
+      "colName": "TAM",
+      "colTitle": "Total Amount"
+    },
+    "currValBoughtCost": {
+      "colName": "Current Value <br> Bought Cost",
+      "colTitle": "Current Value <br> Bought Cost"
+    },
+    "currVal": {
+      "colName": "Current Value",
+      "colTitle": "Current Value"
+    },
+    "boughtCost": {
+      "colName": "Bought Cost",
+      "colTitle": "Bought Cost"
+    },
+    "boughtCostCurrency": {
+      "colTitle": "Currency Value {{currency}} <br> Bought Cost {{currency}}"
+    },
+    "summaryTable": {
+      "cv": "CV",
+      "currVal": "Current Value",
+      "d": "D",
+      "diff": "Difference",
+      "bc": "BC",
+      "boughtCost": "Bought Cost"
+    }
+  },
+  "footer": {
+    "stopPFTrailer": "Stop ProfitTrailer",
+    "ptVersion": "ProfitTrailer Version",
+    "ver": "Ver:",
+    "pendingOrder": "Pending Order Time",
+    "pot": "POT:",
+    "wiki": "Wiki"
+  },
+  "constantMsgs": {
+    "ptMonitor": "ProfitTrailer Monitor",
+    "ajaxError": "There was an error while refreshing the data from ProfitTrailer. Please check your connection. If your connection is fine refresh the page and have a pint.",
+    "processingError": "There was an error while processing the data received from ProfitTrailer. Please give ProfitTrailer some love, make a coffee and all will be good soon.",
+    "configSuccess": "You have successfully saved the data",
+    "configNotSave": "Changes that you made are not saved. Do you still want to leave this page?",
+    "onPassword": "On",
+    "offPassword": "Off",
+    "onConfig": "On",
+    "offConfig": "Off",
+    "unsaveChange": "(Unsaved changes)",
+    "save": " Save",
+    "noNotifications": "No notifications.",
+    "noHeartbeats": "No heartbeats.",
+    "viewAll": "View all",
+    "viewLess": "View less",
+    "true": "True",
+    "false": "False"
+  },
+  "alertMsgs": {
+    "cancelBtn": "Cancel",
+    "stop": "Stop",
+    "stopAlert": "Are you sure, you want to stop ProfitTrailer?",
+    "stopBtn": "Stop",
+    "noPwd": "Please enable password/config in your application file to enable this function."
+  }
+}

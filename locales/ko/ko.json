@@ -1,0 +1,777 @@
+{
+  "logo": {
+    "profit": "Profit",
+    "trailer": "Trailer"
+  },
+  "dtMsgs": {
+    "noRecords": "항목 없음",
+    "totalRecords": "총 개수",
+    "excel": "엑셀",
+    "search": "검색",
+    "showEntries": " _MENU_ 항목 표시",
+    "all": "전부",
+    "previous": "이전",
+    "next": "다음",
+    "filtered": "(총 _MAX_ 개의 항목 중에서 검색됨)"
+  },
+  "sidebar": {
+    "monitoring": "모니터링",
+    "buyLog": "구매 대기 페이지",
+    "pairsLog": "구매 코인 페이지",
+    "dcaLog": "DCA 페이지",
+    "pendingLog": "Pending 페이지",
+    "salesLog": "판매 페이지",
+    "dustLog": "Dust 페이지",
+    "config": "설정"
+  },
+  "pageHeadings": {
+    "configuration": "설정",
+    "totalLog": "총 로그"
+  },
+  "configOptions": {
+    "pairs": "Pairs",
+    "dca": "DCA",
+    "indicators": "Indicators",
+    "hotConfig": "HotConfig"
+  },
+  "summaryItems": {
+    "balance": {
+      "title": "잔고",
+      "label": "BAL"
+    },
+    "testMode": {
+      "label": "테스트모드"
+    },
+    "price": {
+      "title": "가격",
+      "label": "가격"
+    },
+    "tcv": {
+      "title": "현재 잔존 금액",
+      "label": "TCV"
+    },
+    "sb": {
+      "title": "시작 금액",
+      "label": "SB"
+    },
+    "profit": {
+      "title": "수익",
+      "label": "P",
+      "fullText": "수익"
+    },
+    "lw": {
+      "title": "지난주 수익",
+      "label": "LW"
+    },
+    "yd": {
+      "title": "어제 수익",
+      "label": "YD"
+    },
+    "td": {
+      "title": "오늘 수익",
+      "label": "TD"
+    },
+    "trend": {
+      "title": "지난 24시간",
+      "label": "T",
+      "suffix": " 트렌드!"
+    },
+    "imageTitles": {
+      "fullScreen": "전체 화면"
+    },
+    "updated": "{{- timeAgo}} 갱신됨"
+  },
+  "settingInfo": {
+    "chngePswrd": {
+      "label": "비밀번호 변경",
+      "title": "비밀번호를 변경하려면 \"{{ role }}\" 자격이 되어야 합니다."
+    },
+    "noPswrdAndConfig": {
+      "title": "이 기능을 사용하려면 application 파일에서 password 와 config 옵션을 활성화 하세요."
+    },
+    "noEnableShutdown": {
+      "title": "이 기능을 사용하려면 application 파일에서 password/shutdown 옵션을 활성화 하세요."
+    },
+    "noPswrd": {
+      "title": "이 기능을 사용하려면 application 파일에서 password 옵션을 활성화 하세요."
+    },
+    "market": {
+      "label": "마켓: ",
+      "title": "거래소 및 코인"
+    },
+    "currency": {
+      "title": "통화"
+    },
+    "config": {
+      "label": "설정: ",
+      "title": "Application 파일에서 변경 가능"
+    },
+    "password": {
+      "label": "비밀번호: ",
+      "title": "Application 파일에서 변경 가능"
+    },
+    "som": {
+      "label": "SOM: "
+    },
+    "somOnOff": {
+      "label": "SOM",
+      "subLabel": "SOM 끄기/켜기",
+      "title": "매도 전용 모드 (SOM)"
+    },
+    "somo": {
+      "label": "SOMO: ",
+      "title": "Sell Only Mode 강제 해제"
+    },
+    "heartbeats": {
+      "label": "작동 신호"
+    },
+    "settings": {
+      "label": "설정"
+    },
+    "somoOnOff": {
+      "label": "SOMO",
+      "subLabel": "SOMO 끄기/켜기"
+    },
+    "time": {
+      "label": "시간: ",
+      "title": "현재 시간대"
+    },
+    "utc": {
+      "title": "거래소 서버 시간/UTC",
+      "labelFullText": "UTC 시간:",
+      "labelShortText": "UTC 시간:"
+    },
+    "logout": {
+      "label": "로그아웃"
+    }
+  },
+  "monitoringSection": {
+    "topFiveMarkets": {
+      "btc": "BTC ",
+      "eth": "ETH ",
+      "xrp": "XRP ",
+      "bch": "BCH ",
+      "ltc": "LTC "
+    },
+    "pairsBal": {
+      "label": "구매 코인 잔고"
+    },
+    "dcaBal": {
+      "label": "DCA 잔고"
+    },
+    "coinTopMarket": {
+      "title": "Coinmarketcap 톱 5 코인"
+    },
+    "globalMarket": {
+      "totalMarketCap": "총 시가총액",
+      "total24HrsVol": "24 시간 총 볼륨",
+      "bitcoinMarketCap": "시가총액 중 비트코인의 %",
+      "title": "Coinmarket 시가총액 정보"
+    },
+    "usdFullText": " 추정 금액",
+    "usdShortText": "추정가",
+    "gainFullText": "추정 수익율",
+    "gainShortText": "추정수익",
+    "heading": "모니터링",
+    "tcvDust": {
+      "label": "Dust 포함 총 잔존 금액",
+      "title": "Dust를 포함한 총 잔존 금액"
+    },
+    "notification": "알림",
+    "trendContainerFirstPart": "지난 24시간 동안의 ",
+    "trendContainerSecondPart": "톱 50 코인의 트렌드 %",
+    "trend24H": "24시간 트렌드",
+    "balance": {
+      "title": "현재 사용하지 않은 자산",
+      "mainText": "잔고",
+      "usdFullText": "USD 추정 금액",
+      "usdShortText": "USD 추정가"
+    },
+    "tcv": {
+      "title": "현재 소유 총 금액",
+      "mainText": "현재 잔존 금액",
+      "usdFullText": "USD 추정 금액",
+      "usdShortText": "USD 추정가"
+    },
+    "sb": {
+      "title": "시작 금액. PAIRS.properties에서 설정 가능.",
+      "mainText": "시작 금액",
+      "usdFullText": "USD 추정 금액",
+      "usdShortText": "USD 추정가"
+    },
+    "btcUsd": {
+      "title": "현재 BTCUSD의 가격",
+      "mainText": "BTC USD 가격"
+    },
+    "trendUsd1H": {
+      "mainText": "지난 1시간의 USD 트렌드"
+    },
+    "trendUsd24H": {
+      "mainText": "지난 24시간의 USD 트렌드"
+    },
+    "trendUsd7D": {
+      "mainText": "지난 1주일의 USD 트렌드"
+    },
+    "trendUsdTill7D": {
+      "title": "지난 1시간, 지난 24시간, 지난 7일 간 톱 20 코인들의 USD 마켓 트렌드 평균 % (CoinMarketCap)"
+    },
+    "profitLW": {
+      "title": "지난 주 수익",
+      "mainText": "지난 주 수익",
+      "usdFullText": "USD 추정 금액",
+      "usdShortText": "USD 추정가"
+    },
+    "profitYday": {
+      "title": "어제 수익",
+      "mainText": "어제 수익",
+      "usdFullText": "USD 추정 금액",
+      "usdShortText": "USD 추정가"
+    },
+    "profitToday": {
+      "title": "오늘 수익",
+      "mainText": "오늘 수익",
+      "usdFullText": "USD 추정 금액",
+      "usdShortText": "USD 추정가"
+    },
+    "pot": {
+      "title": "지정가 판매 대기시간",
+      "label": "POT:",
+      "pwTitle": "Application 파일에서 수정 가능",
+      "pwText": "비번:",
+      "conText": "설정:",
+      "somText": "SOM:",
+      "somoTitle": "Sell Only Mode 강제 해제",
+      "somoText": "SOMO:",
+      "ptvTitle": "ProfitTrailer 버젼",
+      "pLetter": "P",
+      "tLetter": "T",
+      "marketTitle": "거래소 및 거래 코인",
+      "marketLabel": "마켓:",
+      "ver": "버젼"
+    },
+    "pairsLog": {
+      "title": "Pairs 코인의 현재 가치",
+      "fullText": "현재 가치",
+      "shortText": "CV",
+      "diffTitle": "매수 비용과 현재 가치의 차이",
+      "diffFullText": "차이",
+      "boughtCostTitle": "Pairs 코인의 매수 비용",
+      "bcFullText": "매수 비용",
+      "bcShortText": "BC",
+      "label": "구매 코인 페이지"
+    },
+    "dcaLog": {
+      "title": "DCA 코인의 현재 가치",
+      "fullText": "현재 가치",
+      "shortText": "CV",
+      "diffTitle": "매수 비용과 현재 가치의 차이",
+      "diffFullText": "차이",
+      "totalCostTitle": "DCA 코인의 총 비용",
+      "tcFullText": "총 비용",
+      "tcShortText": "TC",
+      "label": "DCA 페이지"
+    },
+    "pendingLog": {
+      "title": "Pending 코인의 목표 금액",
+      "fullText": "현재 가치",
+      "shortText": "CV",
+      "diffTitle": "목표 금액과 현재 가치의 차이",
+      "diffFullText": "차이",
+      "targetValueTitle": "Pending 코인의 목표 금액",
+      "tvFullText": "목표 금액",
+      "tvShortText": "TV",
+      "label": "Pending 페이지"
+    },
+    "salesLog": {
+      "title": "Pairs 코인의 현재 가치",
+      "fullText": "매수 비용",
+      "shortText": "BC",
+      "diffTitle": "매수 금액과 판매 금액의 차이",
+      "diffFullText": "차이",
+      "soldValueTitle": "판매한 코인의 판매 금액",
+      "svFullText": "판매 금액",
+      "svShortText": "SV",
+      "label": "판매 페이지"
+    }
+  },
+  "psbSection": {
+    "coin": {
+      "colName": "코인",
+      "colTitle": "코인 페어"
+    },
+    "24H": {
+      "colName": "%",
+      "colTitle": "24시간 변화량 %"
+    },
+    "buyStrat": {
+      "colName": "매수",
+      "colTitle": "매수 전략"
+    },
+    "currPrice": {
+      "colName": "주문 가격",
+      "colTitle": "주문 가격"
+    },
+    "vol": {
+      "colName": "VOL",
+      "colTitle": "볼륨"
+    },
+    "currBB": {
+      "colName": "현재 BB",
+      "colTitle": "현재 볼린저 밴드"
+    },
+    "currVal": {
+      "colName": "BSV",
+      "colTitle": "매수 전략 값"
+    },
+    "buyVal": {
+      "colName": "BST",
+      "colTitle": "매수 전략 지표"
+    },
+    "buyLimit": {
+      "colName": "BSL",
+      "colTitle": "매수 전략 제한"
+    }
+  },
+  "dataTableSection": {
+    "buyTrigger": {
+      "colName": "BTG%",
+      "colTitle": "매수 전략 지표"
+    },
+    "sellTrigger": {
+      "colName": "STG%",
+      "colTitle": "매도 전략 지표"
+    },
+    "currValCurrency": {
+      "colTitle": "현재 가치 {{currency}}"
+    },
+    "stratVal": {
+      "colName": "SSV",
+      "colTitle": "매도 전략 값"
+    },
+    "stratTrigger": {
+      "colName": "SST",
+      "colTitle": "매도 전략 지표"
+    },
+    "currVal": {
+      "colName": "현재 가치"
+    },
+    "boughtCostCurrency": {
+      "colTitle": "매수 금액 {{currency}}"
+    },
+    "date": {
+      "colName": "날짜"
+    },
+    "time": {
+      "colName": "시간"
+    },
+    "timeSince": {
+      "colName": "소유 기간"
+    },
+    "trigger": {
+      "colName": "지표"
+    },
+    "currPrice": {
+      "colName": "입찰가격"
+    },
+    "avgPrice": {
+      "colName": "평균 가격"
+    },
+    "targetValue": {
+      "colName": "목표 가치"
+    },
+    "targetPrice": {
+      "colName": "목표 가격"
+    },
+    "AM": {
+      "label": " AM"
+    },
+    "PM": {
+      "label": " PM"
+    }
+  },
+  "pairsLogSection": {
+    "date": {
+      "colName": "날짜",
+      "colTitle": "날짜 (소유 기간)"
+    },
+    "coin": {
+      "colName": "코인",
+      "colTitle": "코인 페어"
+    },
+    "24H": {
+      "colName": "24시간%",
+      "colTitle": "24시간 변화량 %"
+    },
+    "sellStrat": {
+      "colName": "매도",
+      "colTitle": "매도 전략"
+    },
+    "currPrice": {
+      "colName": "입찰가격",
+      "colTitle": "입찰 가격"
+    },
+    "currPriceBoughtPrice": {
+      "colName": "입찰 가격<br>구입 가격",
+      "colTitle": "입찰 가격<br>구입 가격"
+    },
+    "boughtrPrice": {
+      "colName": "구입 가격",
+      "colTitle": "구입 가격"
+    },
+    "profit": {
+      "colName": "P%",
+      "colTitle": "수익율 %"
+    },
+    "trigger": {
+      "colName": "TG%",
+      "colTitle": "지표"
+    },
+    "vol": {
+      "colName": "VOL",
+      "colTitle": "볼륨"
+    },
+    "totalAmount": {
+      "colName": "전체<br>개수",
+      "colTitle": "총 개수"
+    },
+    "currVal": {
+      "colName": "현재 가치",
+      "colTitle": "현재 가치"
+    },
+    "currValBoughtCost": {
+      "colName": "현재 가치<br>매수 금액",
+      "colTitle": "현재 가치<br>매수 금액"
+    },
+    "boughtCost": {
+      "colName": "매수 금액",
+      "colTitle": "매수 금액"
+    },
+    "boughtCostCurrency": {
+      "colTitle": "{{currency}} 현재 가치<br>{{currency}} 매수 금액"
+    },
+    "summaryTable": {
+      "cv": "CV",
+      "currVal": "현재 가치",
+      "d": "D",
+      "diff": "차이",
+      "bc": "BC",
+      "boughtCost": "매수 금액"
+    }
+  },
+  "dcaLogSection": {
+    "currentTotalCstValCurrency": {
+      "colTitle": "{{currency}} 현재 가치<br>{{currency}} 총 비용"
+    },
+    "sellStratVal": {
+      "colName": "SSV",
+      "colTitle": "매도 전략 값"
+    },
+    "buyStratVal": {
+      "colName": "BSV",
+      "colTitle": "매수 전략 값"
+    },
+    "BB": {
+      "colName": "BB"
+    },
+    "date": {
+      "colName": "날짜",
+      "colTitle": "날짜 (소유 기간)"
+    },
+    "coin": {
+      "colName": "코인",
+      "colTitle": "코인 페어"
+    },
+    "24H": {
+      "colName": "24H%",
+      "colTitle": "24시간 변화량 %"
+    },
+    "buyStrat": {
+      "colName": "매수",
+      "colTitle": "매수 전략"
+    },
+    "bt": {
+      "colName": "BT%",
+      "colTitle": "매수 지표"
+    },
+    "buyEntryTrigger": {
+      "colName": "BSTV",
+      "colTitle": "매수 전략 지표 값"
+    },
+    "buyEntryVal": {
+      "colName": "BST",
+      "colTitle": "매수 전략 지표"
+    },
+    "sellEntryVal": {
+      "colName": "SST",
+      "colTitle": "매도 전략 지표"
+    },
+    "sellStrat": {
+      "colName": "매도",
+      "colTitle": "매도 전략"
+    },
+    "currPrice": {
+      "colName": "입찰 가격<br>평균 가격",
+      "colTitle": "입찰 가격<br>평균 가격"
+    },
+    "profit": {
+      "colName": "P%",
+      "colTitle": "수익율 %"
+    },
+    "vol": {
+      "colName": "VOL",
+      "colTitle": "볼륨"
+    },
+    "totalAmount": {
+      "colName": "개수",
+      "colTitle": "총 개수"
+    },
+    "currVal": {
+      "colName": "현재가<br>총 비용",
+      "colTitle": "현재 가치<br>총 비용"
+    },
+    "totalCost": {
+      "colName": "총 비용",
+      "colTitle": "총 비용"
+    },
+    "summaryTable": {
+      "cv": "CV",
+      "currVal": "현재 가치",
+      "d": "D",
+      "diff": "차이",
+      "tc": "TC",
+      "totalCost": "총 비용"
+    }
+  },
+  "pendingLogSection": {
+    "targetCurrentValCurrency": {
+      "colTitle": "{{currency}} 현재 가치<br>{{currency}} 목표 금액"
+    },
+    "coin": {
+      "colName": "코인",
+      "colTitle": "코인 페어"
+    },
+    "24H": {
+      "colName": "24H%",
+      "colTitle": "24시간 변화량 %"
+    },
+    "sellStrat": {
+      "colName": "매도",
+      "colTitle": "매도 전략"
+    },
+    "currPrice": {
+      "colName": "입찰 가격",
+      "colTitle": "입찰 가격"
+    },
+    "currPriceTargetPrice": {
+      "colName": "입찰 가격<br>목표 가격",
+      "colTitle": "입찰 가격<br>목표 가격"
+    },
+    "profit": {
+      "colName": "P%",
+      "colTitle": "수익율 %"
+    },
+    "comboProfit": {
+      "colName": "CP%",
+      "colTitle": "총 수익율 %"
+    },
+    "trigger": {
+      "colName": "TG%",
+      "colTitle": "지표 % 값"
+    },
+    "totalAmount": {
+      "colName": "총 개수",
+      "colTitle": "총 개수"
+    },
+    "currVal": {
+      "colName": "현재 가치<br>목표 금액",
+      "colTitle": "현재 가치<br>목표 금액"
+    },
+    "targetVal": {
+      "colName": "목표 금액",
+      "colTitle": "목표 금액"
+    },
+    "summaryTable": {
+      "cv": "CV",
+      "currVal": "현재 가치",
+      "d": "D",
+      "diff": "차이",
+      "tv": "TV",
+      "targetVal": "목표 금액"
+    }
+  },
+  "salesLogSection": {
+    "boughtSoldPrice": {
+      "colName": "구입 가격<br>판매 가격"
+    },
+    "boughtSoldValue": {
+      "colName": "매수 금액<br>매도 금액"
+    },
+    "boughtSoldValueCurrency": {
+      "colTitle": "{{currency}} 매수 금액<br>{{currency}} 매도 금액"
+    },
+    "soldValueCurrency": {
+      "colTitle": "매도 금액 {{currency}}"
+    },
+    "coin": {
+      "colName": "코인",
+      "colTitle": "코인 페어"
+    },
+    "sellStrat": {
+      "colName": "매도",
+      "colTitle": "매도 전략"
+    },
+    "date": {
+      "colName": "날짜",
+      "colTitle": "날짜 (소유 기간)"
+    },
+    "boughtPrice": {
+      "colName": "구입가격",
+      "colTitle": "구입 가격"
+    },
+    "soldPrice": {
+      "colName": "판매 가격",
+      "colTitle": "판매 가격"
+    },
+    "profit": {
+      "colName": "P%",
+      "colTitle": "수익율 %"
+    },
+    "trigger": {
+      "colName": "TG%",
+      "colTitle": "지표 %"
+    },
+    "profitUSD": {
+      "colName": "<span class='api-market'></span> 수익",
+      "colTitle": "해당 마켓 및 통화에 대한 수익"
+    },
+    "soldAmount": {
+      "colName": "판매 수량",
+      "colTitle": "판매 수량"
+    },
+    "boughtCost": {
+      "colName": "매수 금액",
+      "colTitle": "매수 금액"
+    },
+    "boughtCostCurrency": {
+      "colTitle": "매수 금액 {{currency}}"
+    },
+    "soldValue": {
+      "colName": "매도 금액",
+      "colTitle": "매도 금액"
+    },
+    "profitSolo": {
+      "colName": "수익",
+      "colTitle": "{{market}} 수익"
+    },
+    "profitCurrency": {
+      "colTitle": "{{currency}} 수익"
+    },
+    "summaryTable": {
+      "sv": "SV",
+      "soldVal": "매도 금액",
+      "d": "D",
+      "diff": "차이",
+      "bc": "BC",
+      "boughtCost": "매수 금액"
+    }
+  },
+  "dustLogSection": {
+    "date": {
+      "colName": "날짜",
+      "colTitle": "날짜 (소유 기간)"
+    },
+    "coin": {
+      "colName": "코인",
+      "colTitle": "코인 페어"
+    },
+    "24H": {
+      "colName": "24H%",
+      "colTitle": "24시간 변화량 %"
+    },
+    "currPriceBoughtPrice": {
+      "colName": "입찰 가격<br>구입 가격",
+      "colTitle": "입찰 가격<br>구입 가격"
+    },
+    "currPrice": {
+      "colName": "입찰 가격",
+      "colTitle": "입찰 가격"
+    },
+    "boughtPrice": {
+      "colName": "구입가격",
+      "colTitle": "구입 가격"
+    },
+    "profit": {
+      "colName": "P%",
+      "colTitle": "수익율 %"
+    },
+    "trigger": {
+      "colName": "TG%",
+      "colTitle": "지표 %"
+    },
+    "vol": {
+      "colName": "VOL",
+      "colTitle": "볼륨"
+    },
+    "totalAmount": {
+      "colName": "총 개수",
+      "colTitle": "총 개수"
+    },
+    "currValBoughtCost": {
+      "colName": "현재 가치<br>매수 금액",
+      "colTitle": "현재 가치<br>매수 금액"
+    },
+    "currVal": {
+      "colName": "현재 가치",
+      "colTitle": "현재 가치"
+    },
+    "boughtCost": {
+      "colName": "매수 금액",
+      "colTitle": "매수 금액"
+    },
+    "boughtCostCurrency": {
+      "colTitle": "{{currency}} 현재 가치<br>{{currency}} 매수 금액"
+    },
+    "summaryTable": {
+      "cv": "CV",
+      "currVal": "현재 가치",
+      "d": "D",
+      "diff": "차이",
+      "bc": "BC",
+      "boughtCost": "매수 금액"
+    }
+  },
+  "footer": {
+    "stopPFTrailer": "ProfitTrailer 중지",
+    "ptVersion": "ProfitTrailer 버젼",
+    "ver": "버젼:",
+    "pendingOrder": "지정가 매도 시간",
+    "pot": "POT:",
+    "wiki": "위키"
+  },
+  "constantMsgs": {
+    "ptMonitor": "ProfitTrailer 모니터링",
+    "ajaxError": "데이터를 갱신하는데 오류가 발생하였습니다. VPS나 PT 연결을 확인해 보세요. 만약 VPS/PT 모두 정상이라면 잠시 여유를 갖고 기다려 보세요.",
+    "processingError": "ProfitTrailer 에서 받은 데이터를 처리하는데 오류가 발생하였습니다. 잠시 여유를 갖고 기다린다면 Profittrailer 가 다시 작동할 것입니다.",
+    "configSuccess": "성공적으로 저장하였습니다.",
+    "configNotSave": "변경한 내용이 저장되지 않았습니다. 빠져나가도 될까요?",
+    "onPassword": "있음",
+    "offPassword": "없음",
+    "onConfig": "켜짐",
+    "offConfig": "꺼짐",
+    "unsaveChange": "(변경 사항 미저장)",
+    "save": " 저장",
+    "noNotifications": "알림 없음.",
+    "noHeartbeats": "동작 신호 없음.",
+    "viewAll": "모두 보기",
+    "viewLess": "작게 보기",
+    "true": "켜짐",
+    "false": "꺼짐"
+  },
+  "alertMsgs": {
+    "cancelBtn": "취소",
+    "stop": "중지",
+    "stopAlert": "ProfitTrailer 를 정말 중지할까요?",
+    "stopBtn": "중지",
+    "noPwd": "이 기능을 사용하려면 application 파일에서 비밀번호를 설정하세요."
+  }
+}

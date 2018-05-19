@@ -1,0 +1,121 @@
+/* Main body */
+
+body {
+    background-color: @template-background-color;
+}
+
+/* Main body */
+
+/* Header */
+
+.tdbitcoin {
+    color:@bitcoin-color;
+}
+
+/* Header */
+
+/* Form */
+
+.message-box {
+    margin: 120px 50px;
+}
+
+.form-control {
+    border: 1px solid @form-border-color;
+    background-color: @form-control-background-color;
+    box-shadow: none;
+    color: @form-control-color; 
+}
+
+.form-control:focus {
+    background: @form-focus-background-color;
+    border-color: @form-control-focus-border-color;
+    box-shadow: none;
+    color: @form-control-color; 
+}
+
+form.text-center div.input-group span.input-group-btn button.btn-primary {
+    background-color: @btn-primary-background-color;
+    border: 1px solid @btn-primary-border-color;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.input-group-btn button.btn-primary.btn-email {
+    border-radius: 4px;
+    background-color: @btn-primary-background-color;
+    border: 1px solid @btn-primary-border-color;  
+}
+
+a.btn-primary {
+    background-color: @btn-primary-background-color;
+    border-radius: 4px;
+    border: 1px solid @btn-primary-border-color;
+}
+
+.btn-primary:hover,
+.input-group-btn button.btn-primary.btn-email:hover,
+a.btn-primary:hover {
+    background-color: @btn-primary-hover-background-color;
+    color: @btn-color !important;
+}
+
+.input-group-btn .btn {
+    padding: 7px 14px; 
+}
+
+/* Form */
+
+/* Side image */
+
+.ex-page-content .svg-box {
+    float: right; 
+}
+
+/*  Side image */
+
+/* Text style*/
+
+.text-dark {
+    color: @text-color !important; 
+}
+
+.text-muted {
+    color: @mute-text-color !important; 
+}
+
+/* Text style*/
+
+/* Polygon animation styles */
+
+#Polygon-1,
+#Polygon-2,
+#Polygon-3,
+#Polygon-4,
+#Polygon-4,
+#Polygon-5 {
+  animation: float 1s infinite ease-in-out alternate;
+}
+
+#Polygon-2 {
+  animation-delay: .2s;
+}
+
+#Polygon-3 {
+  animation-delay: .4s;
+}
+
+#Polygon-4 {
+  animation-delay: .6s;
+}
+
+#Polygon-5 {
+  animation-delay: .8s;
+}
+
+@keyframes float {
+  100% {
+    transform: translateY(20px);
+  }
+}
+/* Polygon animation styles */

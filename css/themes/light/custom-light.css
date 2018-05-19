@@ -1,0 +1,333 @@
+/*Top menu*/
+#topNav .navigation-menu > li > a,
+#topNav .navigation-menu > li .submenu li a {
+  color: rgba(16, 15, 15, 0.7);
+}
+#topNav .navigation-menu > li .submenu {
+  background: #FFFFFF;
+}
+/*Top menu */
+/* Notifications */
+ul.navbar-custom {
+  background: #ffffff;
+}
+.notification-list .noti-icon {
+  color: #343c49;
+}
+.notification-list .dropdown-menu {
+  background-color: #ffffff;
+}
+.notify-icon .mdi-settings {
+  color: #98a6ad;
+}
+.dropdown-menu .dropdown-item {
+  color: #000000;
+  background-color: #ffffff;
+}
+.dropdown-menu .dropdown-item:hover {
+  background: #e6e6e6;
+}
+/* Notifications */
+/* Data table */
+/* Fixed columns */
+table.DTFC_Cloned tr,
+div.DTFC_LeftHeadWrapper table,
+div.DTFC_RightHeadWrapper table,
+div.DTFC_LeftFootWrapper table,
+div.DTFC_RightFootWrapper table,
+div.DTFC_Blocker {
+  background-color: #ffffff;
+}
+table.dataTable.table-striped.DTFC_Cloned tbody,
+table.dataTable.table-striped.DTFC_Cloned tbody tr.even {
+  background-color: #f2f2f2;
+}
+table.dataTable.table-striped.DTFC_Cloned tbody tr.odd {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/* Fixed columns*/
+div.dataTables_scrollBody table.table.table-striped {
+  background: #f2f2f2;
+}
+#dtDcaLogs td.strat-current-val,
+#dtPossibleBuysLog td.current-value,
+#dtPairsLogs td.current-value {
+  color: rgba(128, 109, 4, 0.75);
+}
+.dt-pending-logs .target-price {
+  color: #1e82a2;
+}
+.summary-table tr {
+  border-top: 1px solid #868e96;
+}
+.summary-table tr:last-child {
+  border-bottom: 1px solid #868e96;
+}
+.table-bordered,
+.table-bordered td,
+.table-bordered th {
+  border-color: #bfbfbf !important;
+  border-bottom-color: #bfbfbf !important;
+}
+table {
+  border-color: #bfbfbf !important;
+}
+table .blue-color {
+  color: #1e82a2;
+}
+.buy-strategy,
+.sell-strategy {
+  color: #2f68a6;
+}
+th.buy-strategy {
+  color: #4c5667;
+}
+.bought-cost,
+.bought-price {
+  color: #a06d1c;
+}
+.bbtrigger {
+  color: #239e6a;
+}
+.target-price,
+.target-value,
+.total-cost {
+  color: #31b970;
+}
+.sold-value,
+.sold-price {
+  color: #47b0b0;
+}
+.sold-amount {
+  color: #47b0b0;
+}
+.table.dataTable th {
+  color: #4c5667;
+}
+.trigger {
+  color: #239e6a;
+}
+.dataTables_filter,
+.dataTables_length {
+  color: #000000;
+}
+.form-control {
+  background-color: #ffffff !important;
+  border-color: #e6e6e6;
+  color: #000000;
+}
+.btn-dark {
+  color: #e6e6e6;
+}
+.page-link {
+  background-color: #e6ffff;
+  color: #333333;
+}
+.page-item.active .page-link,
+.page-item.disabled .page-link {
+  color: #000000;
+  background-color: #99ffff;
+}
+.page-link:hover,
+.page-item.disabled .page-link:hover {
+  background-color: #f8ecec;
+  color: #333333;
+}
+.btn-secondary.buttons-excel {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #000000;
+}
+.btn-secondary.buttons-excel:hover {
+  color: #ffffff;
+  background-color: #c8c8c8;
+  border-color: #ffffff;
+}
+/* Datatable */
+/* Ticker */
+.list-inline .list-inline-item.text-profitlw {
+  color: #a18b12 !important;
+}
+.list-inline .list-inline-item.text-primary {
+  color: #2186ab !important;
+}
+/*  Ticker */
+/* Settings tab */
+.btn-light {
+  background-color: #868e96;
+  border-color: #868e96;
+}
+.settings-tab {
+  background: #ffffff !important;
+}
+.mdi-settings.noti-icon {
+  color: #36404a;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #000000;
+  background-color: none;
+}
+.nav-tabs > li > a,
+.nav-pills > li > a {
+  color: #000000;
+}
+.tabs-bordered li a.active {
+  border-bottom: 2px solid #039cfd !important;
+}
+.tabs-bordered {
+  border-bottom-color: rgba(128, 137, 142, 0.2) !important;
+}
+.btns-container .btn-container .btn-dark {
+  color: #000000;
+  background: #ffffff;
+  border-color: #000000;
+}
+/* Settings tab */
+/* Monitoring */
+.card-box {
+  background-color: #ffffff;
+}
+.widget-bg-color-icon .bg-icon-btctrend {
+  background-color: rgba(10, 108, 98, 0.75);
+  border: 6px solid rgba(10, 108, 98, 0.3);
+}
+.text-btctrend {
+  color: rgba(10, 108, 98, 0.75);
+}
+.text-btcusd,
+.coin-market-text,
+.text-trend1h,
+.text-trend24h,
+.text-trend7d {
+  color: rgba(51, 108, 18, 0.75);
+}
+.top-market .counter,
+.global-market .counter {
+  color: #3e91bb;
+}
+.widget-bg-color-icon .bg-icon-btcusd,
+.widget-bg-color-icon .bg-icon-trend1h,
+.widget-bg-color-icon .bg-icon-trend24h,
+.widget-bg-color-icon .bg-icon-trend7d {
+  background-color: rgba(78, 127, 49, 0.75);
+  border: 6px solid rgba(133, 187, 101, 0.3);
+}
+.widget-bg-color-icon .bg-icon-profityd {
+  background-color: rgba(68, 114, 174, 0.75);
+  border: 6px solid rgba(68, 114, 174, 0.3);
+}
+.widget-bg-color-icon .bg-icon-profittd {
+  background-color: rgba(170, 43, 29, 0.75);
+  border: 6px solid rgba(170, 43, 29, 0.3);
+}
+.widget-bg-color-icon .bg-icon-pairs,
+.widget-bg-color-icon .bg-icon-dca,
+.widget-bg-color-icon .bg-icon-pending,
+.widget-bg-color-icon .bg-icon-sales {
+  background-color: rgba(51, 168, 70, 0.75);
+  border: 6px solid rgba(51, 168, 70, 0.3);
+}
+.widget-bg-color-icon .bg-icon-profitlw {
+  background-color: rgba(215, 185, 23, 0.75);
+  border: 6px solid rgba(215, 185, 23, 0.3);
+}
+.text-profityd {
+  color: rgba(68, 114, 174, 0.75);
+}
+.text-trend7d {
+  color: rgba(51, 108, 18, 0.75);
+}
+.text-profittd {
+  color: rgba(170, 43, 29, 0.75);
+}
+.text-profitlw {
+  color: rgba(215, 185, 23, 0.75);
+}
+.text-pairs,
+.text-dca,
+.text-pending,
+.text-sales {
+  color: rgba(51, 168, 70, 0.75);
+}
+.text-dark {
+  color: #000000 !important;
+}
+/* Monitoring */
+/* Top nav bar */
+.topbar .topbar-left {
+  background-color: #ffffff;
+}
+.button-menu-mobile {
+  background-color: #ffffff;
+}
+nav.navbar-custom {
+  background-color: #ffffff;
+}
+.page-title-box {
+  background-color: #ffffff;
+}
+/* Top nav bar */
+/* Secondary header container */
+.page-title-box.secondary-header-container {
+  background-color: #ffffff;
+}
+.page-title.tab-heading {
+  color: #000000;
+}
+/* Secondary header container */
+/* Page content */
+body {
+  background-color: #cccccc;
+  color: #000000 !important;
+}
+/* Page content */
+/* Footer */
+.version-container {
+  color: #000000;
+}
+.footer {
+  background-color: #ffffff;
+}
+/* Footer */
+/* Side menu bar */
+#sidebar-menu > ul > li > a {
+  color: inherit !important;
+}
+.side-menu.left {
+  background: #ffffff;
+}
+#sidebar-menu > ul > li > a:hover {
+  color: #039cfd !important;
+}
+#sidebar-menu > ul > li > a:hover .waves-primary .fa {
+  color: #039cfd !important;
+}
+#sidebar-menu .subdrop {
+  color: #039cfd !important;
+}
+.waves-primary .fa:hover {
+  color: #039cfd !important;
+}
+.waves-primary.subdrop .fa {
+  color: #000000;
+}
+.waves-effect.waves-primary {
+  background-color: #ffffff;
+}
+.waves-effect.waves-primary.subdrop span {
+  color: #000000;
+}
+.waves-effect.waves-primary.subdrop {
+  border-left: 3px solid #039cfd !important;
+}
+.list-unstyled > li > a {
+  color: inherit !important;
+}
+.list-unstyled > li:hover {
+  color: #039cfd !important;
+}
+.list-unstyled {
+  background-color: #ffffff;
+}
+/* Side menu bar */

@@ -1,0 +1,1440 @@
+/* Start of common styles */
+
+.badge-primary {
+  color: #fff;
+  background-color: #3BAFDA;
+  border-color: #3BAFDA;
+}
+
+.bought-badge-number {
+  color: #000000 !important;
+  padding: 1px 5px;
+  margin-left: 5px;
+  border-radius: 2px;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+#wrapper {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.content-page>.content {
+  margin-top: 55px;
+}
+
+.hide {
+  display: none !important;
+}
+
+.bottom {
+  position: relative;
+  vertical-align: bottom;
+}
+
+.tooltip-inner {
+  max-width: 250px;
+}
+
+#toast-container>div {
+  opacity: 1
+}
+.content-page,
+#wrapper.enlarged .content-page {
+  margin-left: 0px !important; 
+}
+.sub-header,
+.footer {
+  left: 0px !important;
+}
+
+/* End of common styles */
+
+/* Start of footer styles */
+
+.footer label {
+  margin-bottom: 0px;
+}
+
+/* End of footer styles */
+
+/* Start of header styles */
+#subHeader {
+  display: block;
+}
+
+.records-count {
+  margin-left: 5px;
+  min-width: 30px;
+  display: inline-block;
+  color: #fff !important;
+}
+#topNav {
+  display: none;
+}
+.topbar-left {
+  padding-left: 20px;
+}
+
+/* Start of top nav bar */
+#topNav .navigation-menu {
+  margin-bottom: 0px;
+  line-height: 40px;
+  padding-left: 0px;
+}
+#topNav .navigation-menu > li .submenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1000;
+  padding: 15px 0;
+  list-style: none;
+  min-width: 200px;
+  text-align: left;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 10px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+#topNav .navigation-menu > li:hover a,
+#topNav .navigation-menu > li:hover a i,
+#topNav .navigation-menu > li .submenu li a:hover,
+#topNav .has-submenu.active a,
+#topNav .has-submenu.active .submenu li.active > a {
+  color: #3bafda;
+}
+#topNav .active {
+  color: #3bafda !important;
+}
+#topNav .navigation-menu li.active > a {
+  font-weight: bold !important;
+}
+#topNav .title {
+  display: inline-block;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+#topNav .title span{
+  display: block;
+}
+#topNav .title span:last-child {
+  visibility: hidden;
+  height: 0px;
+  font-weight: bold;
+}
+#topNav .navigation-menu > li.has-submenu:hover > .submenu {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 0;
+}
+#topNav .navigation-menu > li .submenu li a {
+  line-height: 24px;
+  display: block;
+  padding: 8px 25px;
+  clear: both;
+  white-space: nowrap;
+  font-size: 15px;
+  -webkit-transition: all .35s ease;
+  transition: all .35s ease;
+}
+#topNav .navigation-menu > li > a i {
+  vertical-align: middle;
+  font-size: 16px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+#topNav .navigation-menu > li > a {
+  display: block;
+  font-weight: 500;
+  font-size: 15px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  line-height: 20px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+#topNav .navigation-menu > li {
+  display: inline-block;
+  position: relative;
+}
+/* End of top nav bar */
+
+.js-updating-summary {
+  opacity: 0.5;
+}
+
+.main-heading {
+  margin-bottom: 0px;
+  min-height: 55px;
+}
+
+.heading-text {
+  display: inline-block;
+}
+
+.heading-text .tdbitcoin {
+  float: left;
+}
+
+.logo,
+.navbar-custom .nav-link,
+.monitor-info-mbl {
+  line-height: 55px;
+}
+
+.button-menu-mobile {
+  height: 55px;
+}
+
+.navbar-custom .list-inline-item label {
+  font-weight: bold;
+}
+
+.time-hdr {
+  margin-left: 10px;
+}
+
+.spinner .fa-spinner,
+.last-updated-on-container,
+.monitor-summary {
+  line-height: 55px;
+  font-size: 0.7em;
+}
+
+.monitor-summary {
+  display: block;
+  font-size: 0.9em;
+  margin-right: 10px;
+  line-height: 31px;
+  text-align: center;
+  padding-top: 12px;
+}
+#bodyLoadingSymbol .fa-spinner {
+  font-size: 50px
+}
+#bodyLoadingSymbol {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+body .fa.fa-spinner {
+  font-size: 25px;
+}
+
+.tab-specific-loading {
+  display: none;
+  margin-left: 15px;
+}
+
+.last-updated-on-container {
+  font-style: italic;
+}
+
+.spinner,
+.last-updated-on-container,
+.monitor-summary {
+  display: none;
+}
+
+.tab-heading {
+  text-transform: uppercase;
+}
+
+.monitor-summary li {
+  line-height: 15px !important;
+}
+
+.last-updated-on-container .label {
+  font-weight: bold;
+}
+
+.monitor-info-mbl .info-icon {
+  font-size: 18px;
+  padding: 0 12px;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.monitor-info-mbl-container {
+  display: none;
+}
+
+.monitor-summary-title label {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.monitor-summary-title {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0px;
+  font-size: 0.6em;
+}
+
+.monitor-summary-title .list-inline-item {
+  margin-right: 0px;
+}
+
+.settings-info-container #apiCurrency {
+  display: inline-block;
+}
+
+.close-brackets:after {
+  content: ")"
+}
+
+.open-brackets:before {
+  content: "("
+}
+
+.tdbitcoin {
+  color: #FF9900;
+}
+
+.tdbitcoin a {
+  color: #FF9900;
+  text-decoration: none;
+}
+
+.heading-text .trailer, .button-menu-mobile .fa, .navbar-custom .text-primary {
+  color: #3bafda !important;
+}
+
+#testModeContainer {
+  float: right;
+  margin-right: 20px;
+  display: none;
+}
+
+/* End of header styles */
+
+/* Start of table styles */
+
+/****************************************************************************
+* Look at the tableDefs.js file, function - loadPairLogsData.
+* In there you'll see the columns property which has the defination for each
+* column in the table. For example -
+* {
+*    title: 'Date',
+*    data: DataTableHelper.getUTCTime,
+*    className: 'date' <---- Use this to style it.
+* }
+*
+* I've given you an example below -
+* .table-class .column-class
+****************************************************************************/
+
+.tdwhite {
+  color: #ffffff;
+}
+
+.tdgreen {
+  color: #6CB46C;
+}
+
+.tdblue {
+  color: #add8e6;
+}
+
+.tdlred {
+  color: #FFE5E5;
+}
+
+.tdred {
+  color: #FF6666;
+}
+
+.tdgray {
+  color: #bcbcbc;
+}
+
+.dt-pairs-logs .date {
+  /************************************************
+ * EXAMPLE - Pairs Log table - date column.
+ * Add CSS as needed.
+ ***********************************************/
+}
+
+.dt-sales-log .sell-strategy .dt-sell-hide {
+  display: none;
+}
+
+.profit .badge {
+  width: 60px;
+  font-weight: normal;
+  font-size: inherit !important;
+}
+
+.profit .badge-danger {
+  background-color: #a71515;
+}
+
+.profit .badge-success {
+  background-color: rgb(12, 133, 87);
+}
+
+.order-profit {
+  margin-top: 10px;
+}
+
+#dtDcaLogs,
+.dt-dca-logs {
+  font-size: 13px;
+}
+
+.summary-table .current-currency-values {
+  /* TODO: min-width is not correct fix. */
+  min-width: 90px;
+  display: inline-block;
+}
+
+.buy-strategy .tdred,
+.sell-strategy .tdred {
+  display: none;
+}
+
+.buy-strategy,
+.sell-strategy,
+.table-nowrap {
+  white-space: nowrap;
+}
+#dtDcaLogs_wrapper .dt-time {
+  display: block;
+}
+
+.dataTables_wrapper th.text-center {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+.strat-trigger-value {
+  color: #FF9900;
+}
+
+.strat-limit-value {
+  color: #3bafda;
+}
+
+.dt-dca-logs tbody tr td {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.market a {
+  text-decoration: none;
+}
+
+.market a,
+.yellow {
+  color: #FF9900;
+}
+
+.profit-class {
+  background-color: rgb(0, 128, 79);
+  color: rgb(255, 255, 255);
+  border-bottom-color: rgb(0, 128, 79);
+}
+
+.card-box.table-responsive {
+  overflow: auto;
+}
+
+.loss-class {
+  background-color: rgb(178, 34, 34);
+  color: rgb(255, 255, 255);
+}
+
+.profit-classtext {
+  color: rgb(5, 177, 111);
+}
+
+.loss-classtext {
+  color: rgb(216, 83, 83);
+}
+
+.buy-value,
+.strat-entry-val {
+  color: #6CB46C;
+}
+
+th.buy-value {
+  color: #98a6ad;
+}
+
+th.strat-entry-val {
+  color: #98a6ad;
+}
+
+.trigger {
+  color: #8cbea9;
+}
+
+.dt-pairs-logs .trigger {
+  color: #6CB46C;
+}
+
+td.current-value {
+  color: #f66000;
+}
+
+#wrapper table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before,
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+  top: 35%;
+  border: 2px solid #3bafda;
+  background-color: #3bafda;
+  font-weight: bold;
+  box-shadow: none;
+}
+
+#wrapper .dataTables_wrapper {
+  padding: 0px;
+}
+
+.summary-table {
+  margin-top: 10px;
+}
+
+.summary-table tr td:first-child {
+  font-weight: bold;
+}
+
+.summary-table td {
+  padding: 5px;
+}
+
+.dca-bought-times-container,
+.sales-market-profit {
+  margin-left: 2px;
+}
+
+.dt-dca-logs.collapsed .dca-avg-current-price {
+  display: block;
+}
+
+
+
+#dvPageContent .dt-buttons {
+  float: right;
+  margin-top: 10px;
+}
+
+#dvPageContent .dataTables_length {
+  float: right;
+  margin-top: 5px;
+}
+
+#dvPageContent .dataTables_filter label {
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+
+.summary-table tr {
+  color: #6CB46C;
+  padding: 10px;
+}
+
+.summary-table tr td:nth-child(2) {
+  text-align: right;
+}
+
+.summary-table tr:first-child {
+  color: #FF6666;
+}
+
+.dtr-data {
+  display: inline-block;
+  text-align: left !important;
+}
+
+.dtr-title {
+  vertical-align: top;
+}
+
+/* End of table styles */
+
+/* Start of Sidebar styles */
+
+.side-menu {
+  position: static !important;
+  width: 100%;
+  display: none;
+}
+
+.sidebar-inner,
+#side-menu,
+.slimScrollDiv {
+  height: auto !important;
+  width: 100% !important;
+}
+
+#sidebar-menu{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.navbar-custom {
+  min-height: 55px;
+  max-height: 55px;
+}
+
+#sidebar-menu .subdrop {
+  font-weight: bold;
+}
+
+.records-count.text-primary {
+  color: #3bafda !important;
+}
+
+/* End of Sidebar styles */
+
+/* Start of monitor styles */
+
+.top-market {
+  display: inline-block;
+}
+
+.global-market .market-label {
+  font-size: 16px;
+}
+
+.top-market .counter,
+.top-market .market-label {
+  display: block;
+}
+
+.top-market-labels {
+  margin-left: 15px;
+  text-align: left;
+}
+
+
+
+.percentage {
+  margin-right: 10px;
+}
+
+.widget-bg-color-icon .bg-icon-tdbitcoin {
+  background-color: rgba(255, 153, 0, 0.75);
+  border: 6px solid rgba(255, 153, 0, 0.3);
+}
+
+body .monitor-smaller-fonts {
+  font-size: 0.85em !important;
+}
+
+.short-text {
+  display: none;
+}
+
+.trend-market {
+  display: inline-block;
+  text-align: left;
+}
+
+.trend-market .counter {
+  float: right;
+}
+
+.monitoring-row .card-box {
+  margin-bottom: 0px;
+  height: 100%;
+}
+
+.monitoring-row>div {
+  margin-bottom: 20px;
+}
+
+.monitoring-row .card-box label.usd-value {
+  margin-bottom: 0px;
+}
+
+.global-market .counter {
+  display: block;
+}
+
+p.settings-text span.text-primary {
+  margin-left: -3px;
+}
+
+/* End of monitor styles */
+
+/* Start of ace editor styles*/
+
+div.ace_layer div.ace_line span.ace_variable {
+  color: #FF9900;
+}
+
+/* End of ace editor styles */
+
+/* Start of config styles */
+
+#PBConfigEditor {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+.editor-inner-container {
+  position: relative;
+  height: 100%;
+}
+
+.show-save-message {
+  font-size: 14px;
+  display: none;
+  font-style: italic;
+  vertical-align: bottom;
+}
+
+.configuration-heading-container {
+  margin-bottom: 10px;
+}
+
+.ace-editor-buttons button {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+#configurationHeading {
+  margin-top: 14px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 0px;
+}
+
+.editor-container {
+  min-height: 300px;
+}
+
+#configMenu {
+  display: none;
+}
+
+/* End of config styles */
+
+/* Start of footer styles */
+
+span.version-container label span.tdbitcoin {
+  margin-right: -4px;
+}
+
+/* End of footer styles */
+
+/* Start of sweet alert styles */
+
+.disabled.btn-sweet-alert-confirm {
+  cursor: not-allowed;
+}
+
+/* End of sweet alert styles */
+
+/* Start of settings tab styles */
+
+#wrapper .settings-tab {
+  top: 55px;
+}
+.switchery-buttons {
+  display: none;
+}
+
+#settingsTabContainer .btn {
+  padding: 8px 10px;
+  font-size: 1.2em;
+}
+
+#settingsTabContainer .btns-container {
+  position: absolute;
+  bottom: 20px;
+}
+
+#settingsTabContainer .btns-container .btn-container.disabled {
+  cursor: not-allowed;
+}
+
+#settingsTabContainer .btns-container .btn-container.disabled .btn {
+  /* Don't let button block mouse events from reaching wrapper when it is disabled*/
+  pointer-events: none;
+}
+
+#settingsTabContainer .btns-container .link {
+  padding: 8px 10px;
+  display: inline-block;
+}
+
+#settingsTabContainer .btns-container .btn.disabled {
+  cursor: not-allowed;
+  opacity: .65;
+}
+
+#settingsTabContainer .btns-container .btn-container:not(:last-child) .btn {
+  margin-bottom: 20px;
+}
+
+.switchery-buttons[disabled]+.switchery {
+  cursor: not-allowed;
+}
+
+/* End of settings tab styles */
+
+/* Start of heartbeat styles */
+
+#wrapper .heartbeat-details {
+  margin-bottom: 0px;
+}
+
+#heartsBeatsTab p {
+  font-size: 16px;
+}
+
+#heartsBeatsTab .notify-icon {
+  display: inline-block;
+  font-size: 40px;
+  vertical-align: top;
+  margin-top: 6px;
+}
+
+#heartsBeatsTab .item-info {
+  display: inline-block;
+}
+
+/* End of heartbeat styles */
+
+/* Start of notification styles */
+
+.notifications-container {
+  display: inline-block;
+  min-height: auto;
+  max-height: none;
+  margin-left: 0px !important;
+}
+
+#appNotificationContainer,
+#appNotificationContainer .notification-list .noti-icon {
+  padding-right: 0px;
+  padding-left: 0px
+}
+
+#lnkToggleNotification .noti-icon-badge {
+  display: none;
+}
+
+#appNotificationContainer .notification-list .noti-icon-badge {
+  right: 0px;
+}
+
+#appNotificationContainer .noti-icon-badge {
+  top: 0px;
+}
+
+/* To fix the issue of small arrow icon appearing after notification bell icon in IE */
+
+#appNotificationContainer .dropdown-toggle:after {
+  content: none;
+}
+
+.second-header-container .page-title,
+div.second-header-container .notifications-container a.dropdown-toggle,
+.settings-info-container,
+.settings-info-container .language-flag,
+.settings-info-container #apiCurrency,
+#testModeContainer {
+  line-height: 40px;
+}
+
+.settings-info-container label {
+  margin-bottom: 0px;
+}
+
+.second-header-container {
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+#appNotificationContainer .dropdown-menu {
+  transform: none !important;
+  top: 30px !important;
+  left: 9px ! important;
+  max-width: 330px;
+}
+
+#appNotificationContainer #appNotifications {
+  max-height: 317px;
+  overflow: auto;
+}
+
+#appNotifications .notify-icon {
+  font-size: 2.5em;
+}
+
+#appNotifications .notify-item .notify-details {
+  margin-left: 48px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 650px) {
+  #testModeContainer {
+    margin-right: 0px;
+  } 
+  #appNotificationContainer .notification-list .noti-icon {
+    padding-left: 20px;
+  }
+}
+
+/* Font size of datatable for resolution between 1024px and 1920px (medium) */
+@media screen and (max-width: 1920px) and (min-width: 1024px) {
+  .dataTables_wrapper {
+    font-size: 14px !important;
+  }
+}
+
+/* Font size of datatable for resolution above 1920px (big) */
+@media screen and (min-width: 1920px) {
+  .dataTables_wrapper {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #appNotificationContainer .dropdown-menu {
+    left: -258px !important;
+    right: 0px;
+  }
+  #testModeContainer {
+    margin-right: 5px;
+  } 
+  #appNotificationContainer {
+    float: right;
+    padding-right: 0px;
+  }
+  #appNotificationContainer .noti-icon {
+    padding-right: 0px;
+  }
+  #appNotificationContainer .notification-list .notify-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #appNotificationContainer .notification-list .notify-item .notify-icon {
+    margin-right: 8px;
+  }
+  #appNotifications .notify-item .notify-details {
+    margin-left: 45px;
+    margin-right: 0px;
+    font-size: 14px;
+  }
+}
+
+/* Start of media queries */
+@media screen and (min-width: 1024px) {
+  .footer {
+    position: fixed;
+  }
+  .sub-header {
+    top: 70px;
+  }
+  .content-page>.content {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 35px;
+  }
+  html {
+    overflow: hidden;
+  }
+  .content-page {
+    overflow: auto;
+  }
+  .notifications-container{
+    float: right;
+  }
+  .page-title {
+    display: none;
+  }
+  .side-menu.left {
+    display: none;
+  }
+  .footer-link {
+    margin-right: 112px;
+  }
+  .content-page {
+    margin-left: 0px;
+  }
+  #topNav {
+    display: inline-block;
+  }
+  #appNotificationContainer .dropdown-menu {
+    right: 0px !important;
+    left: auto !important;
+    top: 40px !important;
+  }
+  .second-header-container {
+    padding-bottom: 0px;
+  }
+  .menu-left {
+    display: none;
+  }
+  /* Start of styles for making sub header fixed */
+  .sub-header-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .sub-header {
+    position: fixed;
+    right: 0px;
+    z-index: 2;
+  }
+}
+
+@media(min-width: 1024px) and (max-width: 1036px) {
+  #wrapper .sub-header-content {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media(max-width: 1023px) {
+  .topbar {
+    position: relative !important;
+  }
+  .content {
+    margin-top: 0px !important;
+  }
+  .second-header-container {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .second-header-container {
+    padding-top: 1px !important;
+  }
+}
+
+@media(max-width: 1024px) {
+  .logo span {
+    display: none !important;
+  }
+  .topbar .topbar-left,
+  #wrapper.enlarged .topbar .topbar-left {
+    width: 70px !important;
+  }
+  .navbar-custom,
+  #wrapper.enlarged .navbar-custom {
+    margin-left: 70px;
+  }
+  .profit .badge {
+    width: 40px;
+  }
+  #sidebar-menu {
+    margin-top: 0px !important;
+  }
+  /* Font size of datatable for resolution lower than 1024px (small) */
+  .dataTables_wrapper {
+    font-size: 12px !important;
+  }
+}
+
+/* End of styles for making sub header fixed */
+@media screen and (max-width: 4680px) {
+  .summary-table {
+    font-size: 15px !important;
+  }
+  .ticker-text {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .top-market-labels {
+    margin-left: 2px;
+  }
+  .monitoring-row .card-box {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1300px)  {
+  .top-market {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1450px) and (min-width: 1024px)  {
+  .trend-market .counter {
+    margin-left: 5px;
+  }
+  #topNav {
+    width: auto;
+    display: inline-block;
+  }
+  .monitoring-row .card-box {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .second-header-container {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .settings-info-container {
+    float: none;
+  }
+  #topNav .navigation-menu > li > a {
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .records-count {
+    margin-left: 3px;
+  }
+}
+
+@media screen and (max-width: 1110px) and (min-width: 1024px) { 
+  #testModeContainer {
+    display: block;
+    text-align: center;
+    float: none;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1250px) and (min-width: 420px) {
+  .footer-link {
+    display: block;
+    margin: 5px 0;
+    margin-right: 0;
+  }
+  .footer .lr-no-float {
+    float: none !important;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 420px) { 
+  .content-page>.content {
+    margin-bottom: 95px;
+  }
+}
+
+@media screen and (max-width: 2680px) {
+  .summary-table {
+    font-size: 16px !important;
+  }
+  .ticker-text {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 1999px) {
+  .totals-text {
+    font-size: 13px !important;
+  }
+  .settings-text {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .usd-value {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .main-text,
+  .percentage-text {
+    font-size: 14px !important;
+  }
+  .settings-text {
+    font-size: 10px !important;
+  }
+  .totals-text {
+    font-size: 10px !important;
+  }
+  .short-text {
+    display: inline-block;
+  }
+  .full-text {
+    display: none;
+  }
+  .summary-table {
+    font-size: 12px !important;
+  }
+  .ticker-text {
+    font-size: 14px !important;
+  }
+  .usd-value {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .main-text,
+  #wrapper .top-market,
+  .percentage-text {
+    font-size: 16px !important;
+  }
+  .settings-text {
+    font-size: 10px !important;
+  }
+  .ticker-text {
+    font-size: 12px !important;
+  }
+  .totals-text {
+    font-size: 10px !important;
+  }
+  .short-text {
+    display: inline-block;
+  }
+  .full-text {
+    display: none;
+  }
+  .summary-table {
+    font-size: 12px !important;
+  }
+  .usd-value {
+    font-size: 12px !important;
+  }
+  .widget-bg-color-icon .bg-icon {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .widget-bg-color-icon .bg-icon i {
+    font-size: 18px;
+    color: #ffffff !important;
+    line-height: 28px;
+  }
+  #dvPageContent  table.dataTable thead>tr>th.sorting {
+    padding-right: 20px;
+  }
+  /* To fix misalignment of header and body of table because of data table scroll x */
+  .dt-possible-buys-Log th:first-child {
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .main-text,
+  .percentage-text {
+    font-size: 14px !important;
+  }
+  .ticker-text {
+    font-size: 12px !important;
+  }
+  #wrapper .top-market,
+  .global-market .market-label {
+    font-size: 14px !important;
+  }
+  .settings-text {
+    font-size: 9px !important;
+  }
+  .totals-text {
+    font-size: 10px !important;
+  }
+  .short-text {
+    display: inline-block;
+  }
+  .full-text {
+    display: none;
+  }
+  .usd-value {
+    font-size: 12px !important;
+  }
+  .widget-bg-color-icon .bg-icon {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .widget-bg-color-icon .bg-icon i {
+    font-size: 18px;
+    color: #ffffff !important;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .main-text {
+    font-size: 10px !important;
+  }
+  .totals-title {
+    font-size: 12px !important;
+  }
+  .settings-text {
+    font-size: 8px !important;
+  }
+  .summary-table {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main-text {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (min-width: 1175px) {
+  .updated-on-container {
+    min-width: 160px;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 1175px) {
+  #dvLastUpdatedOn.last-updated-on-container {
+    display: none !important;
+  }
+  #wrapper .top-market,
+  .global-market .market-label,
+  .main-text,
+  .usd-value,
+  .percentage-text {
+    font-size: 12px !important;
+  }
+  .widget-bg-color-icon .bg-icon {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .widget-bg-color-icon .bg-icon i {
+    font-size: 18px;
+    color: #ffffff !important;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .monitor-info-mbl-container {
+    display: block;
+  }
+  .monitor-summary {
+    display: none !important;
+  }
+  .usd-value {
+    font-size: 12px !important;
+  }
+  .widget-bg-color-icon .bg-icon {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .widget-bg-color-icon .bg-icon i {
+    font-size: 18px;
+    color: #ffffff !important;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .version-container {
+    float: none;
+  }
+  #configurationHeading {
+    font-size: 18px;
+  }
+  .summary-table {
+    font-size: 6px !important;
+  }
+  .sidebar-inner {
+    font-size: 10px !important;
+  }
+  .settings-text {
+    font-size: 12px !important;
+  }
+  .show-save-message {
+    font-size: 12px;
+  }
+  .save-config {
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .usd-value {
+    font-size: 12px !important;
+  }
+  .widget-bg-color-icon .bg-icon {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .widget-bg-color-icon .bg-icon i {
+    font-size: 18px;
+    color: #ffffff !important;
+    line-height: 28px;
+  }
+  .ace_search {
+    left: 0px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .monitor-second-row .column {
+    width: 33% !important;
+    max-width: 33% !important;
+  }
+}
+
+@media screen and (min-width: 1420px) {
+  .monitor-second-row .column {
+    width: 20% !important;
+    max-width: 20% !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #dvPageContent .dataTables_length {
+    float: none;
+  }
+ .date {
+    display: none;
+  }
+  .dt-pairs-logs.DTFC_Cloned,
+  .dt-dca-logs.DTFC_Cloned,
+  .dt-pending-logs.DTFC_Cloned,
+  .dt-sales-log.DTFC_Cloned,
+  .dt-dust-logs.DTFC_Cloned {
+    border-right: 0px;
+  }
+  #dvPageContent .dataTables_filter label {
+    margin-right: 0px;
+  }
+  .dt-buttons.btn-group {
+    width: auto;
+    margin-bottom: 10px;
+  }
+  #sidebar-menu {
+    position: relative;
+  }
+  .second-header-container .page-title {
+    display: inline-block;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  .settings-info-container {
+    line-height: 1.5;
+  }
+  .ace_search_field {
+    width: 100% !important;
+  }
+}
+
+
+
+@media(orientation: landscape) and (max-width: 768px) {
+  .hide-phone {
+    display: none !important;
+  }
+}
+
+/* End of media queries */
